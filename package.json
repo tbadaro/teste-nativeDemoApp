@@ -1,0 +1,29 @@
+{
+  "name": "teste-nativeDemoApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbadaro/teste-nativeDemoApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbadaro/teste-nativeDemoApp/issues"
+  },
+  "homepage": "https://github.com/tbadaro/teste-nativeDemoApp#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.16.14"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^7.16.14",
+    "@wdio/local-runner": "^7.16.14",
+    "@wdio/mocha-framework": "^7.16.14",
+    "@wdio/spec-reporter": "^7.16.14"
+  }
+}
